@@ -18,3 +18,5 @@ This is just an alternative, more simplified version of the attack, built for ed
 ```
 $ forge script script/Script.s.sol:AttackerScript
 ```
+
+By setting the `USE_PATCHED_VERSION` flag in the `script/Script.s.sol` file to `true`, you may see how the patched version [deployed](https://etherscan.io/tx/0x13347615a94b2e3ad385277f5145102f50fe112f274b0e5300c6d8ce507eeb80) after noticing the attack would prevent exploitation.
